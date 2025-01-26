@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/komalsoni/MLOPS_ASSIGNMENT1/mlruns/0/eb72efdbade04999b559d09a2abe3465/artifacts
+end_time: 1737899822168
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eb72efdbade04999b559d09a2abe3465
+run_name: RandomForest
+run_uuid: eb72efdbade04999b559d09a2abe3465
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737899820734
+status: 3
+tags: []
+user_id: komalsoni

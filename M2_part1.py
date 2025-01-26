@@ -6,10 +6,16 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
+import pandas as pd
 
 # Load Iris dataset
-iris = load_iris()
-X, y = iris.data, iris.target
+file_path = "data/iris_data.csv"
+iris= pd.read_csv(file_path, header=None)
+
+# Split features (X) and target (y)
+X = iris.iloc[:, :-1]  # All columns except the last one
+y = iris.iloc[:, -1]   # Last column as the target
+
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # Define models
