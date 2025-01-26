@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/komalsoni/MLOPS_ASSIGNMENT1/mlruns/0/12c1e8e1a190490daeffd386c916f369/artifacts
+end_time: 1737898399701
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 12c1e8e1a190490daeffd386c916f369
+run_name: SVM
+run_uuid: 12c1e8e1a190490daeffd386c916f369
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737898398452
+status: 3
+tags: []
+user_id: komalsoni
